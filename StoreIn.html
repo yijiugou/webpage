@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>易品优选官网---门店入驻</title>
+    <meta name="Keywords" content="易品优选,易品优选官网,湖南易品优选,长沙易品优选">
+    <meta name="Description" content="易品优选——中国社区电商领跑者，总部位于四川成都。易品优选以“预售+自提”的模式服务于广大社区家庭并提供全品类精选商品，满足消费者日常生活及消费升级的需求。">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="./src/index.css" type="text/css">
+    <script src="./src/jquery-1.8.3.min.js"></script>
+    <script src="./src/browser.js"></script>
+</head>
+
+<body>
+
+    <div class="logo1">
+        <div class="logo-m">
+            <a class="logo-img" href="https://www.yijiugou.com/"></a>
+            <nav>
+                <a href="https://www.yijiugou.com/" class="current">公司简介</a>
+                <!-- <a href="https://www.yijiugou.com/Recruit/List" class="zhaopin">
+                        人才招聘
+                    </a> -->
+                <a href="/VendorIn.html">供应商招募</a>
+                <a href="/StoreIn.html">门店入驻</a>
+                <a href="/News.html">商品信息</a>
+
+                <!--                 <div class="down-layer-index">
+                        <a href="https://www.yijiugou.com/Recruit/School" class="currenta">校园招聘</a>
+                        <a href="https://www.yijiugou.com/Recruit/List">社会招聘</a>
+                    </div> -->
+            </nav>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(".zhaopin,.down-layer").mouseover(function () {
+            $(".down-layer").show();
+        }).mouseout(function () {
+            $(".down-layer").hide();
+        });
+        $(".down-layer a").mouseover(function () {
+            $(".down-layer a").removeClass("current");
+            $(this).addClass("current");
+        });
+    </script>
+    <style type="text/css">
+        .down-layer {
+            display: none;
+            background: #fff;
+            width: 117px;
+            border: 1px solid #fff;
+            position: absolute;
+            top: 33px;
+            left: 130px;
+            padding-top: 30px;
+            z-index: 9999;
+        }
+
+        .down-layer a {
+            display: block;
+            width: 100%;
+            height: 40px;
+            line-height: 40px !important;
+            text-align: center;
+            margin-left: 0 !important;
+            border-bottom: 0 !important;
+        }
+
+        .down-layer .current {
+            background: #e81d25;
+            color: #fff !important;
+            font-weight: bold;
+            font-size: 16px !important;
+        }
+    </style>
+
+    <div class="store-in-main">
+        <div class="in-content">
+            <img src="./src/store-in.png">
+            <div class="in-tel">
+                <div class="tel-content">
+                    <div>
+                        <img src="./src/store-tel.png" class="tel">
+                    </div>
+                    <div class="txt">
+                        <p>门店入驻电话</p>
+                        <p>400-888-9997</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-foot">
+        <div class="foot-top">
+            <div class="ft-content">
+                <div class="ft-left">
+                    <img src="./src/foot-logo.png">
+                    <p>人资微信：13272038128</p>
+                    <p>邮箱：xsyxhr@xsyxsc.com</p>
+                    <p>地址：湖南省长沙市岳麓区青山路662号芯城科技园二期1栋</p>
+                </div>
+                <div class="ft-right">
+                    <div class="xcxewm">
+                        <p>微信小程序</p>
+                        <img src="./src/xiaochegnxuma.png">
+                    </div>
+                    <div class="xcxewm">
+                        <p>官方微信公众号</p>
+                        <img src="./src/foot-wxcode.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="foot-bottom">
+            Copyright © 2018 湖南易品优选电子商务有限公司. All rights reserved. 湘ICP备18019433号-1
+        </div>
+    </div>
+    <style type="text/css">
+        .page-foot {
+            width: 100%;
+            background: #2D333B;
+        }
+
+        .foot-top {
+            width: 100%;
+            height: 240px;
+            border-bottom: 1px solid #474D53;
+        }
+
+        .ft-content {
+            width: 1126px;
+            margin: auto;
+            height: 200px;
+            padding-top: 50px;
+        }
+
+        .ft-left {
+            font-size: 13px;
+            color: #BBBBBD;
+            float: left;
+        }
+
+        .ft-left p {
+            padding-left: 10px;
+            margin-top: 10px;
+        }
+
+        .ft-right {
+            float: right;
+            display: flex;
+        }
+
+        .ft-right p {
+            font-size: 17px;
+            color: #D8D8D9;
+            margin-bottom: 10px;
+        }
+
+        .ft-right .xcxewm {
+            width: 160px;
+            text-align: center;
+        }
+
+        .ft-right .xcxewm img {
+            width: 120px;
+            height: 120px;
+            border-radius: 2px;
+        }
+
+        .foot-bottom {
+            width: 100%;
+            text-align: center;
+            font-size: 13px;
+            color: #BBBBBD;
+            height: 60px;
+            line-height: 60px;
+            padding-bottom: 30px;
+        }
+    </style>
+
+
+</body>
+
+</html>
