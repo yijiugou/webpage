@@ -28,7 +28,7 @@ var circleData = [
         right: "364",
         img: "/content/images/changshaMap.jpg",
         openDate: "2017.04.06",
-        trueName: "湖南省委书记杜家豪参观兴盛优选",
+        trueName: "",
     },
     {
         name: "wuhan",
@@ -225,7 +225,7 @@ $(function () {
     //动画1
     turn($("#horizontal"));
     //动画2
-    circleInif();
+    //circleInif();
     //高度计算
     initHeight();
 
